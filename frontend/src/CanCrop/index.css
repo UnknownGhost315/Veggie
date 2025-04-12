@@ -1,0 +1,24 @@
+/* index.css */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+  }
+  
+  .can-crop-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    color: #2e7d32;
+    margin-bottom: 2rem;
+  }
+  

@@ -1,0 +1,77 @@
+.chatbot-container {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+  }
+  
+  .app-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #2e7d32;
+    margin-bottom: 1.5rem;
+  }
+  
+  .city-form {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .city-input {
+    flex-grow: 1;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .weather-btn {
+    padding: 0.75rem 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .weather-btn:hover {
+    background-color: #388e3c;
+  }
+  
+  .chatbot-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .chat-header {
+    background-color: #4caf50;
+    color: white;
+    padding: 0.75rem 1rem;
+  }
+  
+  .chat-header-content {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .chat-body {
+    padding: 1rem;
+    background-color: #f9f9f9;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .chat-footer {
+    padding: 1rem;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+  }
+  
