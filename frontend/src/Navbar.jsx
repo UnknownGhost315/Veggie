@@ -12,7 +12,7 @@ function Navbar() {
     <Router>
       <div>
         <nav className="navbar">
-          <div className="navbar-title"><Link to="/LandingPage" className='nav-link'>🤖 Smart Bot Center</Link></div>
+          <div className="navbar-title"><Link to="/LandingPage" className='nav-link'>🤖 <span style={{"color":" Blue"}}>Veggie</span>-Diagnose<span style={{"color":"black"}}>.AI</span></Link></div>
           <div className="navbar-links">
             <Link to="/CropDiseaseBot" className="nav-link">Crop Disease Bot</Link>
             <Link to="/GeneralBot" className="nav-link">General Bot</Link>
@@ -29,6 +29,7 @@ function Navbar() {
             <Route path="/CanCrop" element={<CanCrop />} />
             <Route path="/LandingPage" element={<LandingPage />} />
             <Route path="/AboutUs" element={<AboutUs />} />
+            <Route path="/" element={<LandingPage />} />
           </Routes>
         </div>
       </div>
